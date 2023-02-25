@@ -1,0 +1,48 @@
+.slidev-layout {
+  h1::before {
+    @apply content-["# "];
+  }
+  
+  h2::before {
+    content: "## ";
+  }
+  
+  h3::before {
+    content: "### ";
+  }
+  
+  h4::before {
+    content: "#### ";
+  }
+
+  em {
+    @apply font-bold font-normal;
+  }
+  
+  em::before,
+  em::after {
+    content: "*";
+  }
+
+  strong {
+    @apply font-bold font-normal;
+  }
+
+  strong::before,
+  strong::after {
+    content: "**";
+  }
+
+  ul li::before {
+    content: "- ";
+  }
+  
+  ol {
+    counter-reset: list;
+  }
+  
+  ol li::before {
+    counter-increment: list;
+    content: counter(list) ". ";
+  }
+}
