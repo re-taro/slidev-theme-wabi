@@ -1,0 +1,14 @@
+*
+*/
+
+!components/*.vue
+!layouts/*.vue
+!setup/*.ts
+!setup/nord/*.json
+!styles/*.ts
+!styles/*.css
+!example.md
+!LICENSE
+!package.json
+!pnpm-lock.yaml
+!README.md
