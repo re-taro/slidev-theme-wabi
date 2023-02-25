@@ -2,22 +2,13 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-wabi?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-wabi)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A Japanese wabi theme for [Slidev](https://github.com/slidevjs/slidev).
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/themes/write-a-theme.html
---->
+## What is wabi「侘び」?
 
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
+A feeling that something modest and simple is tasteful.
 
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
+「つつましく、質素なものにこそ趣があると感じる心のこと」
 
 ## Install
 
@@ -28,18 +19,6 @@ theme: <b>wabi</b>
 ---</code></pre>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
-
-## Layouts
-
-This theme provides the following layouts:
-
-> TODO:
-
-## Components
-
-This theme provides the following components:
-
-> TODO:
 
 ## Contributing
 
