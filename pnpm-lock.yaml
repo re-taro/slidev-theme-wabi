@@ -4,16 +4,16 @@ specifiers:
   '@re-taro/eslint-config': 1.6.2
   '@slidev/cli': 0.40.3
   '@slidev/types': 0.40.3
-  '@types/node': 18.15.2
+  '@types/node': 18.15.3
   eslint: 8.36.0
   postcss: 8.4.21
   typescript: 4.9.5
 
 devDependencies:
   '@re-taro/eslint-config': 1.6.2_vgl77cfdswitgr47lm5swmv43m
-  '@slidev/cli': 0.40.3_5ic5g3z6ccjmibvnwaonc5ujki
+  '@slidev/cli': 0.40.3_jhxlic4pnmizt6jnvipx7lpqwq
   '@slidev/types': 0.40.3
-  '@types/node': 18.15.2
+  '@types/node': 18.15.3
   eslint: 8.36.0
   postcss: 8.4.21
   typescript: 4.9.5
@@ -885,7 +885,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@slidev/cli/0.40.3_5ic5g3z6ccjmibvnwaonc5ujki:
+  /@slidev/cli/0.40.3_jhxlic4pnmizt6jnvipx7lpqwq:
     resolution: {integrity: sha512-vDdtqNSbzlRoK1EgCX+PQDl9Rg+hXnp7Lr/vQ2B+wDCN1Vcu+uk9G1iP6HnYAAedwDL23i1vreqeiDOJtIs5IQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -940,7 +940,7 @@ packages:
       unocss: 0.49.8_vite@4.1.4
       unplugin-icons: 0.15.3
       unplugin-vue-components: 0.23.0_vue@3.2.47
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
       vite-plugin-inspect: 0.7.15_vite@4.1.4
       vite-plugin-remote-assets: 0.3.0_vite@4.1.4
       vite-plugin-vue-markdown: 0.22.4_vite@4.1.4
@@ -1053,8 +1053,8 @@ packages:
     resolution: {integrity: sha512-eC4U9MlIcu2q0KQmXszyn5Akca/0jrQmwDRgpAMJai7qBWq4amIQhZyNau4VYGtCeALvW1/NtjzJJ567aZxfKA==}
     dev: true
 
-  /@types/node/18.15.2:
-    resolution: {integrity: sha512-sDPHm2wfx2QhrMDK0pOt2J4KLJMAcerqWNvnED0itPRJWvI+bK+uNHzcH1dFsBlf7G3u8tqXmRF3wkvL9yUwMw==}
+  /@types/node/18.15.3:
+    resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -1402,7 +1402,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.2.12
       magic-string: 0.29.0
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1417,7 +1417,7 @@ packages:
       '@babel/core': 7.21.0
       '@babel/plugin-transform-typescript': 7.21.0_@babel+core@7.21.0
       '@vue/babel-plugin-jsx': 1.1.1_@babel+core@7.21.0
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
       vue: 3.2.47
     transitivePeerDependencies:
       - supports-color
@@ -1430,7 +1430,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
       vue: 3.2.47
     dev: true
 
@@ -5791,7 +5791,7 @@ packages:
       kolorist: 1.7.0
       sirv: 2.0.2
       ufo: 1.1.0
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -5806,7 +5806,7 @@ packages:
       debug: 4.3.4
       fs-extra: 10.1.0
       magic-string: 0.26.7
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5823,7 +5823,7 @@ packages:
       '@rollup/pluginutils': 5.0.2
       '@types/markdown-it': 12.2.3
       markdown-it: 13.0.1
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -5836,7 +5836,7 @@ packages:
     dependencies:
       debug: 4.3.4
       ufo: 0.8.6
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
       vue: 3.2.47
     transitivePeerDependencies:
       - supports-color
@@ -5850,13 +5850,13 @@ packages:
       '@windicss/plugin-utils': 1.8.10
       debug: 4.3.4
       kolorist: 1.7.0
-      vite: 4.1.4_@types+node@18.15.2
+      vite: 4.1.4_@types+node@18.15.3
       windicss: 3.5.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/4.1.4_@types+node@18.15.2:
+  /vite/4.1.4_@types+node@18.15.3:
     resolution: {integrity: sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -5881,7 +5881,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.15.2
+      '@types/node': 18.15.3
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
