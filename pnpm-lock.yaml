@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@re-taro/eslint-config': 1.6.3
   '@slidev/cli': 0.40.5
-  '@slidev/types': 0.40.3
+  '@slidev/types': 0.40.5
   '@types/node': 18.15.5
   eslint: 8.36.0
   postcss: 8.4.21
@@ -12,7 +12,7 @@ specifiers:
 devDependencies:
   '@re-taro/eslint-config': 1.6.3_j4766f7ecgqbon3u7zlxn5zszu
   '@slidev/cli': 0.40.5_ct6rbxf4acbuqsmyecf3rygsde
-  '@slidev/types': 0.40.3
+  '@slidev/types': 0.40.5
   '@types/node': 18.15.5
   eslint: 8.36.0
   postcss: 8.4.21
@@ -1032,11 +1032,6 @@ packages:
     dependencies:
       '@slidev/types': 0.40.5
       js-yaml: 4.1.0
-    dev: true
-
-  /@slidev/types/0.40.3:
-    resolution: {integrity: sha512-2sE44hvFVWUmWQPZlTx+ZVosSH2QIgnXfRdbMRu5//KN5U5eEvntEwNVhVmDuIYAsTEt9DYJeLrE81XODG7dcg==}
-    engines: {node: '>=14.0.0'}
     dev: true
 
   /@slidev/types/0.40.5:
