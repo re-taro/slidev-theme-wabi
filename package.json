@@ -34,7 +34,7 @@
     "@slidev/types": "0.40.13",
     "@types/node": "18.15.11",
     "eslint": "8.38.0",
-    "postcss": "8.4.22",
+    "postcss": "8.4.23",
     "typescript": "5.0.4"
   },
   "slidev": {
