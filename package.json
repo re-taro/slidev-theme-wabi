@@ -33,7 +33,7 @@
     "@slidev/cli": "0.40.14",
     "@slidev/types": "0.40.14",
     "@types/node": "18.15.13",
-    "eslint": "8.38.0",
+    "eslint": "8.39.0",
     "postcss": "8.4.23",
     "typescript": "5.0.4"
   },
