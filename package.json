@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@re-taro/eslint-config": "1.8.2",
-    "@slidev/cli": "0.40.14",
+    "@slidev/cli": "0.40.16",
     "@slidev/types": "0.40.14",
     "@types/node": "18.16.3",
     "eslint": "8.39.0",
