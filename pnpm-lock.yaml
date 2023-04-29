@@ -8,8 +8,8 @@ devDependencies:
     specifier: 0.40.16
     version: 0.40.16(@types/node@18.16.3)(postcss@8.4.23)(react-dom@16.14.0)(react@16.14.0)
   '@slidev/types':
-    specifier: 0.40.14
-    version: 0.40.14
+    specifier: 0.40.16
+    version: 0.40.16
   '@types/node':
     specifier: 18.16.3
     version: 18.16.3
@@ -1039,11 +1039,6 @@ packages:
     dependencies:
       '@slidev/types': 0.40.16
       js-yaml: 4.1.0
-    dev: true
-
-  /@slidev/types@0.40.14:
-    resolution: {integrity: sha512-Rd/m9SFQCUcsTV+1CsN7U4OMBbt3qryjvcxWNK+7TIFsZkKgMHV7qorYt8TgMu4ChaXtYJdMA2zg4oGTvtkvGg==}
-    engines: {node: '>=14.0.0'}
     dev: true
 
   /@slidev/types@0.40.16:
