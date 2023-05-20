@@ -5,8 +5,8 @@ devDependencies:
     specifier: 1.9.4
     version: 1.9.4(eslint@8.41.0)(svelte@3.58.0)(typescript@5.0.4)
   '@slidev/cli':
-    specifier: 0.41.0
-    version: 0.41.0(@types/node@18.16.13)(postcss@8.4.23)(react-dom@16.14.0)(react@16.14.0)
+    specifier: 0.41.1
+    version: 0.41.1(@types/node@18.16.13)(postcss@8.4.23)(react-dom@16.14.0)(react@16.14.0)
   '@slidev/types':
     specifier: 0.41.0
     version: 0.41.0
@@ -70,7 +70,7 @@ packages:
       '@babel/helper-compilation-targets': 7.20.7(@babel/core@7.21.0)
       '@babel/helper-module-transforms': 7.21.2
       '@babel/helpers': 7.21.0
-      '@babel/parser': 7.21.2
+      '@babel/parser': 7.21.8
       '@babel/template': 7.20.7
       '@babel/traverse': 7.21.2
       '@babel/types': 7.21.2
@@ -265,14 +265,6 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@babel/parser@7.21.2:
-    resolution: {integrity: sha512-URpaIJQwEkEC2T9Kn+Ai6Xe/02iNaVCuT/PtoRz3GPVJVDpPd7mLo+VddTbhCRU9TXqW5mSrQfXZyi8kDKOVpQ==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.21.2
-    dev: true
-
   /@babel/parser@7.21.8:
     resolution: {integrity: sha512-6zavDGdzG3gUqAdWvlLFfk+36RilI+Pwyuuh7HItyeScCWP3k6i8vKclAQ0bM/0y/Kz/xiwvxhMv9MgTJP5gmA==}
     engines: {node: '>=6.0.0'}
@@ -333,7 +325,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.18.6
-      '@babel/parser': 7.21.2
+      '@babel/parser': 7.21.8
       '@babel/types': 7.21.2
     dev: true
 
@@ -347,7 +339,7 @@ packages:
       '@babel/helper-function-name': 7.21.0
       '@babel/helper-hoist-variables': 7.18.6
       '@babel/helper-split-export-declaration': 7.18.6
-      '@babel/parser': 7.21.2
+      '@babel/parser': 7.21.8
       '@babel/types': 7.21.2
       debug: 4.3.4
       globals: 11.12.0
@@ -911,8 +903,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@slidev/cli@0.41.0(@types/node@18.16.13)(postcss@8.4.23)(react-dom@16.14.0)(react@16.14.0):
-    resolution: {integrity: sha512-dy4zOqFWzesHgnvDg4WNt0/TQMfQX+Io7A92i253k6H/d9J1yRV1/vMPm9N+SuaFArYG/kvxptmv6GU6CC1jEw==}
+  /@slidev/cli@0.41.1(@types/node@18.16.13)(postcss@8.4.23)(react-dom@16.14.0)(react@16.14.0):
+    resolution: {integrity: sha512-+xLOcjllqREWzNdjB76nMqoFB8BVO4K3pB/CUIYRGj+hPh6GiyrJS1IK+YDx2gbPGhgdmSNad8gPJsP5gyQKXA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -926,9 +918,9 @@ packages:
       '@iconify-json/carbon': 1.1.16
       '@iconify-json/ph': 1.1.5
       '@lillallol/outline-pdf': 4.0.0
-      '@slidev/client': 0.41.0(postcss@8.4.23)(react-dom@16.14.0)(react@16.14.0)(vite@4.3.7)
-      '@slidev/parser': 0.41.0
-      '@slidev/types': 0.41.0
+      '@slidev/client': 0.41.1(postcss@8.4.23)(react-dom@16.14.0)(react@16.14.0)(vite@4.3.7)
+      '@slidev/parser': 0.41.1
+      '@slidev/types': 0.41.1
       '@vitejs/plugin-vue': 4.2.3(vite@4.3.7)(vue@3.3.2)
       '@vitejs/plugin-vue-jsx': 3.0.1(vite@4.3.7)(vue@3.3.2)
       '@windicss/config': 1.9.0
@@ -998,13 +990,13 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  /@slidev/client@0.41.0(postcss@8.4.23)(react-dom@16.14.0)(react@16.14.0)(vite@4.3.7):
-    resolution: {integrity: sha512-ubX9lqNksWl+Nf02V1CQ+V/RKhrL/OQ4IxyM60tvGUydBIPRngBBNDaln8OZKJyJdZo4/ksFI8lYIqr4l/p/xQ==}
+  /@slidev/client@0.41.1(postcss@8.4.23)(react-dom@16.14.0)(react@16.14.0)(vite@4.3.7):
+    resolution: {integrity: sha512-kRLvcVK45vlHWQKOz1y4Bz6tu5FK+AqyyU/apvNY0frVv6y8cI0tFd5ErfzZZIDdtgKWkX/Of+Qfqkpd/NCbnw==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@antfu/utils': 0.7.2
-      '@slidev/parser': 0.41.0
-      '@slidev/types': 0.41.0
+      '@slidev/parser': 0.41.1
+      '@slidev/types': 0.41.1
       '@unocss/reset': 0.51.13
       '@vueuse/core': 10.1.2(vue@3.3.2)
       '@vueuse/head': 1.1.26(vue@3.3.2)
@@ -1041,16 +1033,21 @@ packages:
       - vite
     dev: true
 
-  /@slidev/parser@0.41.0:
-    resolution: {integrity: sha512-bm1OP8pouS1GIM7fsWlUB3J/cDFrcV0BicVXn707F0nnKqgavSsOVeybRNKNhVD+FrRaL2GgS/eosxq8hQj13w==}
+  /@slidev/parser@0.41.1:
+    resolution: {integrity: sha512-LkFQOSZFFYsRmUJ52Vcw1VIyiDDJ1TReJ4+jkN/sSBfM7F7o+hOAFD/aoOuLKkVCJSxYv/maa3//M29Yft0zBw==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@slidev/types': 0.41.0
+      '@slidev/types': 0.41.1
       js-yaml: 4.1.0
     dev: true
 
   /@slidev/types@0.41.0:
     resolution: {integrity: sha512-P9MhG5QRBKomX8yrawwNIFbCpEor5giQ8UIv7Fai6un8iu3Jin9GV0WGidI1aRNvh4pMXuRLrlEgMoLq0sFRew==}
+    engines: {node: '>=14.0.0'}
+    dev: true
+
+  /@slidev/types@0.41.1:
+    resolution: {integrity: sha512-mOPBTtCcJ1OiEuLIznm3rKVeFj3+i+Niy7vvugt7bk8EaJFrZaIL8a7kY7EVvGb0l+mZWfoURmM7n+vlP8I5Zw==}
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -1556,7 +1553,7 @@ packages:
   /@vue/compiler-sfc@3.3.2:
     resolution: {integrity: sha512-jG4jQy28H4BqzEKsQqqW65BZgmo3vzdLHTBjF+35RwtDdlFE+Fk1VWJYUnDMMqkFBo6Ye1ltSKVOMPgkzYj7SQ==}
     dependencies:
-      '@babel/parser': 7.21.2
+      '@babel/parser': 7.21.8
       '@vue/compiler-core': 3.3.2
       '@vue/compiler-dom': 3.3.2
       '@vue/compiler-ssr': 3.3.2
