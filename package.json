@@ -32,7 +32,7 @@
     "@re-taro/eslint-config": "1.9.8",
     "@slidev/cli": "0.41.1",
     "@slidev/types": "0.42.4",
-    "@types/node": "18.16.17",
+    "@types/node": "18.16.18",
     "eslint": "8.42.0",
     "postcss": "8.4.24",
     "typescript": "5.1.3"
