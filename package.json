@@ -29,7 +29,7 @@
     "fmt": "eslint . --ext .ts,.cjs,.md,.json,.vue --fix"
   },
   "devDependencies": {
-    "@re-taro/eslint-config": "1.10.3",
+    "@re-taro/eslint-config": "1.10.4",
     "@slidev/cli": "0.41.1",
     "@slidev/types": "0.43.7",
     "@types/node": "18.18.6",
