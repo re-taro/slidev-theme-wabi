@@ -12,8 +12,8 @@ devDependencies:
     specifier: 0.41.1
     version: 0.41.1(@types/node@18.19.18)(postcss@8.4.35)(react-dom@16.14.0)(react@16.14.0)
   '@slidev/types':
-    specifier: 0.46.3
-    version: 0.46.3
+    specifier: 0.47.5
+    version: 0.47.5
   '@types/node':
     specifier: 18.19.18
     version: 18.19.18
@@ -1058,8 +1058,8 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: true
 
-  /@slidev/types@0.46.3:
-    resolution: {integrity: sha512-jTrKLvYaZLf+XzKEk5PSgyRd95eurW1j3WzZx+1H0SKkpqrwGhWqaoo8edZHmCIXjOGFrBx40Yu4/c+1EYdMdQ==}
+  /@slidev/types@0.47.5:
+    resolution: {integrity: sha512-X67V4cCgM0Sz50bP8GbVzmiL8DHC2IXvdKcsN7DlxHyf+/T4d9GveeGukwha5Fx3MuYeGZWKag7TFL2ZY4w54A==}
     engines: {node: '>=18.0.0'}
     dev: true
 
